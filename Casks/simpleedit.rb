@@ -1,6 +1,6 @@
 cask "simpleedit" do
-  version "1.27.0"
-  sha256 "0e2c8aec288b6770201a7dc52d5340655c1058b44bc203dce1548f61fe0d4b83"
+  version "2.0.0"
+  sha256 "e92663fa8a14102be1d040f0f562fc6e017b4d6bab59a7e61bcb9c17d4bef837"
 
   url "https://github.com/simple-edit-app/simpleedit/releases/download/v#{version}/simpleedit-v#{version}-macos-aarch64.zip"
   name "SimpleEdit"
