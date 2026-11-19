@@ -18,15 +18,10 @@ cask "ardoise" do
 
   app "Ardoise.app"
   binary "#{appdir}/Ardoise.app/Contents/MacOS/ardoise"
-  # The command was called simpleedit.
-  binary "#{appdir}/Ardoise.app/Contents/MacOS/ardoise", target: "simpleedit"
 
   zap trash: [
     "~/Library/Application Support/ardoise",
-    "~/Library/Application Support/simpleedit",
     "~/Library/Preferences/app.ardoise.Ardoise.plist",
-    "~/Library/Preferences/app.simpleedit.SimpleEdit.plist",
     "~/Library/Saved Application State/app.ardoise.Ardoise.savedState",
-    "~/Library/Saved Application State/app.simpleedit.SimpleEdit.savedState",
   ]
 end
