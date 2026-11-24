@@ -1,7 +1,7 @@
 cask "ardoise" do
-  version "2.7.0"
+  version "2.7.1"
   # Replaced by the release job together with the version.
-  sha256 "3e4659e8872021e7810382255714366a899f90aecc1124ba7c8de8f95c6d4842"
+  sha256 "2112c215d5dad3042833f66bee9625a07b365124a383017f1d2acd396f21c54a"
 
   url "https://github.com/ardoise-editor/ardoise/releases/download/v#{version}/ardoise-v#{version}-macos-aarch64.zip"
   name "Ardoise"
